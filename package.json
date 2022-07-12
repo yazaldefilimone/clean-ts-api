@@ -7,7 +7,8 @@
   "repository": "github:yazaldefilimonepinto/clean-ts-api",
   "homepage": "https://rmanguinho.github.io",
   "scripts": {
-    "test": "jest --passWithNoTests --watch --runInBand --no-cache"
+    "test": "jest --passWithNoTests --watch --runInBand --no-cache",
+    "test:staged": "jest --passWithNoTests --watch --runInBand --no-cache"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^2.0.3",

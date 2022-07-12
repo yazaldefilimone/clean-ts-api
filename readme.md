@@ -1,4 +1,4 @@
-# **Clean Node API**
+# **Clean Typescript API**
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=clean-ts-api&message=Welcome&color=FFFFFF&labelColor=6066d0" alt="clean node api welcome!" />

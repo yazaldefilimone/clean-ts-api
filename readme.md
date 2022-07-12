@@ -21,6 +21,16 @@ This API is part of the training of Professor Rodrigo Manguinho (Mango) at Udemy
 The objective of the training is to show how to create an API with a well-defined and decoupled architecture, using TDD (test-oriented programming) as a working methodology, Clean Architecture to distribute responsibilities in layers, always following the principles of SOLID and, whenever possible, applying Design Patterns to solve some common problems.
 <br /><br />
 
+## Table of Contents
+
+- [Tecnologies](#technologies)
+- [Principles](#principles)
+- [Methodologies](#methodologies)
+- [Design Patterns](#patterns)
+- [Libraries and Tools](#libraries)
+- [Setup](#setup)
+- [License](#license)
+
 > ## Principles
 
 - Single Responsibility Principle (SRP)
@@ -61,6 +71,35 @@ The objective of the training is to show how to create an API with a well-define
 - Continuous Integration
 - Continuous Delivery
 - Continuous Deployment
+
+<a id="setup"></a>
+
+## 👷 Setup
+
+- 1 First clone the repository for your machine.
+
+```sh
+git clone https://github.com/yazaldefilimonepinto/clean-ts-api
+```
+
+- 2 After that, enter the generated folder and install the project dependencies.
+
+> You will need to have [Nodejs](https://nodejs.org/) installed on your machine, and
+> [yarn](https://yarnpkg.com/) if you want to use it to install dependencies.
+
+```sh
+npm install
+# or with yarn
+yarn install
+```
+
+- 3 After that start the server and it will write in you console the port.
+
+```sh
+npm dev
+# or with yarn
+yarn dev
+```
 
 > ## Libraries and Tools
 
@@ -180,3 +219,11 @@ The objective of the training is to show how to create an API with a well-define
 - Upsert and ReturnOriginal
 - Push, Divide, Multiply, ArrayElemAt, Cond, Sum
 - Filter, Map, Reduce, MergeObjects, ConcatArrays
+
+<a id="license"></a>
+
+## License
+
+[MIT](https://github.com/yazaldefilimonepinto/clean-ts-api/blob/main/LICENSE) Project License
+
+Creator with 💙 by [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
